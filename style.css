@@ -1,0 +1,136 @@
+/*global*/
+
+p{
+    font-size: 10px;
+    color: rgb(207, 197, 197);
+}
+
+/*global*/
+
+header{
+    display: flexbox;
+    border:2px solid black ;
+    padding: 2%;
+    width:auto;
+}
+
+
+#logo{
+    border:2px solid black ;
+    padding: 2%;
+}
+nav{
+    float: right;
+    border:2px solid black ;
+}
+
+
+/**Above is header section*/
+
+#main-two-div{
+
+    display: flex;
+
+}
+
+.main-first-div{
+    /*border: 2px solid red;*/
+    /*width:max-content;*/
+    margin-top: 5%;
+    height: auto;
+    
+}
+
+#desktop-image{
+background-size: cover;
+background-image:url("./assets/images/image-web-3-desktop.jpg");
+height: 300px;
+/*border: 1px solid black;*/
+
+
+}
+
+#Bright{
+    /*border: 1px solid black;  */
+    margin-top:10px; 
+    font-weight: 700;
+}
+
+#Bright h2{
+    color: rgb(36, 36, 139);
+}
+
+#ReadMoreButtonSection{
+    display: flex;
+}
+
+
+#readmoreDiv{
+    /*border: 1px solid black; */
+    margin-top:10px; 
+    margin-left:3%;
+    font-weight: 700;
+}
+
+
+#readmoreDiv .button{
+    margin-top:12%; 
+    border-radius: 0%;
+    padding: 10px 25px;
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 500;
+}
+/**This is the blue div to the right section*/
+
+#newDiv{
+    margin: 0 5%;
+}
+
+.main-secod-div{
+    margin-top: 5%;
+    margin-left: 2%;
+    /*border: 1px solid blue;*/
+    display: block;
+    color:White;
+    background-color: rgb(2, 2, 43);
+    width: auto;
+}
+
+
+
+.main-secod-div #newDiv:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.newDiv{
+    border-bottom: 1px solid gray;
+    margin: 0 5%;
+  
+}
+
+/*this sectin is for the three pc's*/
+
+.threContainers{
+    /*contains threDiv containers*/
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.threDiv{
+    display: flex;
+    
+}
+
+.icon-three-div img{
+    width: auto;
+    height: 100px;
+}
+
+.info-three-div{
+    display: block;
+    margin: 0 5px;
+    padding: 0px 10px;
+   
+}
