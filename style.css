@@ -1,16 +1,13 @@
 /*global*/
 
-p{
-    font-size: 10px;
-    color: rgb(207, 197, 197);
-}
+
 
 /*global*/
 
 header{
-    display: flexbox;
-    border:2px solid black ;
-    padding: 2%;
+    display: block;
+    /*border:2px solid black ;*/
+    padding: 10px;
     width:auto;
 }
 
@@ -20,8 +17,13 @@ header{
     padding: 2%;
 }
 nav{
+    display: flex;
     float: right;
-    border:2px solid black ;
+   
+}
+
+ul li {
+    padding: 0px 20px;
 }
 
 
@@ -133,4 +135,17 @@ height: 300px;
     margin: 0 5px;
     padding: 0px 10px;
    
+}
+
+
+
+/*by who section*/
+
+.attribution{
+    background-color: sandybrown
+
+}
+
+body{
+    background-color: rgba(183, 11, 77, 0.538);
 }
